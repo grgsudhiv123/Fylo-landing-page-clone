@@ -30,7 +30,6 @@ export const bgImages = {
 export const icons = {
     quotes : quotes,
     favicon : favicon,
-    desktopPhone : desktopPhone,
     files : files,
     arrow : arrow,
     collaboration : collaboration,
@@ -55,3 +54,28 @@ export const profileImg = {
     profile2 : profile2,
     profile3 : profile3
 }
+
+
+
+export const ServicesData = [
+    {
+        img : desktopPhone,
+        header : "Access your files, anywhere",
+        content : "The ability to use a smartphone, tablet , or computer to access your account means your files follow you everywhere.",
+    },
+    {
+        img : security,
+        header : "Security you can trust",
+        content : "2-factor authentication and user-controlled encryption are just a couple of a security features we allow to help secure your files.",
+    },
+    {
+        img : collaboration,
+        header : "Real-time collaboration",
+        content : "Secure share files and folders with friends, family and colleagues for live collaboration. No email attachments required.",
+    },
+    {
+        img : files,
+        header : "Store any type of file",
+        content : "Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be security stored and shared.",
+    },
+]
