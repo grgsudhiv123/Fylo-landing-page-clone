@@ -49,11 +49,6 @@ export const brandLOgo = {
     logo : logo
 }
 
-export const profileImg = {
-    profile1 : profile1,
-    profile2 : profile2,
-    profile3 : profile3
-}
 
 
 
@@ -77,5 +72,27 @@ export const ServicesData = [
         img : files,
         header : "Store any type of file",
         content : "Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be security stored and shared.",
+    },
+]
+
+
+export const Testimonial = [
+    {
+        profileImg : profile1,
+        name : "Satish Patel",
+        role : "Founder & CEO, Huddle",
+        testDesc : "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
+    },
+    {
+        profileImg : profile2,
+        name : "Bruce Mckenzie",
+        role : "Founder & CEO, Huddle",
+        testDesc : "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
+    },
+    {
+        profileImg : profile3,
+        name : "Iva Byod",
+        role : "Founder & CEO, Huddle",
+        testDesc : "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
     },
 ]

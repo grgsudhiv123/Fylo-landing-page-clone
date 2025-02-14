@@ -3,7 +3,7 @@ import ServiceComponent from "../components/ServiceComponent"
 
 const Services = () => {
   return (
-    <section className="w-full h-auto bg-[#181e2a] pt-24">
+    <section className="w-full h-auto bg-[#181e2a] pt-24 pb-10">
       <div className="max-w-screen-lg mx-auto grid grid-cols-2">
         {
           ServicesData.map((items)=>(
