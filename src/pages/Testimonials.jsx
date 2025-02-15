@@ -12,7 +12,7 @@ const Testimonials = () => {
               <div className="relative max-w-[1024px] mx-auto flex flex-row justify-between p-3s gap-10 mt-20 z-10">
                 {
                   Testimonial.map((items)=>(
-                    <TestimonialCard key={items.img} {...items}/>
+                    <TestimonialCard key={items.name} {...items}/>
                   ))
                 }
             </div>

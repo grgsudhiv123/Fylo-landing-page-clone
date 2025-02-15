@@ -20,7 +20,9 @@ const HeroComponents = () => {
             friends family, and co-workers.
         </p>
       </div>
+      <div className="w-1/6">
         <Button button="Get Started"/>
+      </div>
     </div>
   );
 };

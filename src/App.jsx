@@ -3,7 +3,6 @@ import Services from "./pages/Services.jsx"
 import StayProductive from "./pages/StayProductive.jsx"
 import Testimonials from "./pages/Testimonials.jsx"
 import Form from "./pages/Form.jsx"
-import Footer from "./pages/Footer.jsx"
 // import {bgImages} from "./constants/Constants.jsx"
 
 
@@ -27,9 +26,6 @@ const App = () => {
         </section>
         <section>
           <Form />
-        </section>
-        <section>
-          <Footer />
         </section>
       </main>
     </>
