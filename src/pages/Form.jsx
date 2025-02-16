@@ -4,8 +4,7 @@ import Footer from "../components/Footer"
 const Form = () => {
   return (
     <section className="relative w-full h-auto bg-[#181e2a]">
-      <div className="relative w-full pt-80">
-        <p>hello</p>
+      <div className="relative w-full pt-[450px]">
       </div>
 
       {/* Middle content */}
@@ -19,7 +18,7 @@ const Form = () => {
         <FormInput />
       </div>
 
-      <div className="relative w-full bg-[#202434] h-80">
+      <div className="relative w-full bg-[#202434] h-auto pb-16">
           <Footer />
       </div>
     </section>

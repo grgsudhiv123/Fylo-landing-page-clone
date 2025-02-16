@@ -17,6 +17,19 @@ import profile1 from "../assets/images/profile-1.jpg"
 import profile2 from "../assets/images/profile-2.jpg"
 import profile3 from "../assets/images/profile-3.jpg"
 
+import facebook from "../assets/images/facebook.png"
+import instagram from "../assets/images/instagram.png"
+import twitter from "../assets/images/twitter (1).png"
+
+
+
+
+
+export const socialMedia = {
+    facebook : facebook,
+    instagram : instagram,
+    twitter : twitter
+}
 
 
 

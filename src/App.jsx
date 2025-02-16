@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <>
-      <main className="w-full h-auto bg-theme " >
+      <main className="p-0 m-0 overflow-x-hidden bg-[#181e2a]" >
         <section>
           <Hero />
         </section>
