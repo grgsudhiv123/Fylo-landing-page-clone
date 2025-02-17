@@ -1,8 +1,8 @@
 
 const TestimonialCard = ({profileImg, name, role, testDesc}) => {
   return (
-    <section className="w-1/3 p-3 rounded-md bg-[#292f46] flex flex-col gap-10 hover:shadow-md mb-10 hover:shadow-slate-400">
-        <p className="text-balanced text-sm text-slate-300 font-montserrat">{testDesc}</p>
+    <section className="w-1/3 p-3 rounded-md bg-[#292f46] flex flex-col gap-10 max-sm:gap-5 hover:shadow-md mb-10 hover:shadow-slate-400 max-sm:w-[75%] max-sm:mx-auto">
+        <p className="text-balanced text-sm text-slate-300 font-montserrat max-sm:text-xs">{testDesc}</p>
         <div className="flex gap-5 h-auto">
             <img src={profileImg} alt="profile image" className="w-7 h-7 rounded-full object-contain bg-cover"/>
             <div className="flex flex-col">

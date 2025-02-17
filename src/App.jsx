@@ -1,7 +1,7 @@
 import Hero from "./pages/Hero.jsx"
 import Services from "./pages/Services.jsx"
 import StayProductive from "./pages/StayProductive.jsx"
-import Testimonials from "./pages/Testimonials.jsx"
+import Testimonials from "./components/Testimonials.jsx"
 import Form from "./pages/Form.jsx"
 // import {bgImages} from "./constants/Constants.jsx"
 
@@ -21,9 +21,9 @@ const App = () => {
         <section>
           <StayProductive />
         </section>
-        <section>
+        {/* <section>
           <Testimonials />
-        </section>
+        </section> */}
         <section>
           <Form />
         </section>
